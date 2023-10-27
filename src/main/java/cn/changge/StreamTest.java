@@ -20,6 +20,8 @@ public class StreamTest {
     public void test1(){
         List<Integer> list = Arrays.asList(1, 3, 2, 8, 11, 4);
         // 求和方式1
+
+
 //        Optional<Integer> sum = list.stream().reduce((x, y) -> x + y);
 //        System.out.println(sum.get());
         Optional<Integer> reduce = list.stream().reduce(Integer::sum);
