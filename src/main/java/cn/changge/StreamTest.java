@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
  * @Version: 1.0
  */
 public class StreamTest {
+
     @Test
     public void test1(){
         List<Integer> list = Arrays.asList(1, 3, 2, 8, 11, 4);
